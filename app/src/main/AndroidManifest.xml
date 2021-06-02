@@ -9,13 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TicTacToe2P">
-        <activity android:name=".MainActivity">
+        <activity android:name=".GuestGamePlay"></activity>
+        <activity android:name=".HostGamePlay" />
+        <activity android:name=".joinGame" />
+        <activity android:name=".hostGame" />
+        <activity android:name=".hostJoinMenu" />
+        <activity android:name=".MainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
